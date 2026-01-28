@@ -5,7 +5,7 @@ export const starStages = {
     nebula: {
         id: 'nebula',
         title: 'Nebula',
-        img: '/images/nebula.png',
+        img: './images/nebula.png',
         temp: '10-50 K',
         time: 'Millions of years',
         desc: `A <strong>nebula</strong> is a giant cloud of gas and dust in space, often called a "stellar nursery." 
@@ -18,7 +18,7 @@ export const starStages = {
     protostar: {
         id: 'protostar',
         title: 'Protostar',
-        img: '/images/protostar.png',
+        img: './images/protostar.png',
         temp: '2,000-3,000 K',
         time: '100,000 - 1 million years',
         desc: `A <strong>protostar</strong> forms when gravity causes a region of the nebula to collapse. 
@@ -31,7 +31,7 @@ export const starStages = {
     main_yellow: {
         id: 'main_yellow',
         title: 'Main Sequence (Sun-like)',
-        img: '/images/main_yellow.png',
+        img: './images/main_yellow.png',
         temp: '5,500-6,000 K',
         time: '~10 billion years',
         desc: `A <strong>yellow main sequence star</strong> like our Sun is in the most stable phase of stellar life. 
@@ -44,7 +44,7 @@ export const starStages = {
     main_blue: {
         id: 'main_blue',
         title: 'Main Sequence (Massive)',
-        img: '/images/main_blue.png',
+        img: './images/main_blue.png',
         temp: '20,000-50,000 K',
         time: '~10 million years',
         desc: `<strong>Massive blue stars</strong> are the giants of the main sequence, with masses 10-100 times greater than our Sun. 
@@ -56,7 +56,7 @@ export const starStages = {
     red_giant: {
         id: 'red_giant',
         title: 'Red Giant',
-        img: '/images/red_giant.png',
+        img: './images/red_giant.png',
         temp: '3,500-4,500 K',
         time: '~1 billion years',
         desc: `When a Sun-like star exhausts its hydrogen fuel, the core contracts while outer layers expand dramatically, 
@@ -69,7 +69,7 @@ export const starStages = {
     red_supergiant: {
         id: 'red_supergiant',
         title: 'Red Supergiant',
-        img: '/images/red_supergiant.png',
+        img: './images/red_supergiant.png',
         temp: '3,200-4,000 K',
         time: 'A few million years',
         desc: `Massive stars expand into <strong>red supergiants</strong>—the largest stars in the universe. 
@@ -82,7 +82,7 @@ export const starStages = {
     planetary_nebula: {
         id: 'planetary_nebula',
         title: 'Planetary Nebula',
-        img: '/images/planetary_nebula.png',
+        img: './images/planetary_nebula.png',
         temp: 'Core: 100,000+ K',
         time: '~20,000 years',
         desc: `A <strong>planetary nebula</strong> forms when a red giant gently sheds its outer layers into space. 
@@ -94,7 +94,7 @@ export const starStages = {
     supernova: {
         id: 'supernova',
         title: 'Supernova',
-        img: '/images/supernova.png',
+        img: './images/supernova.png',
         temp: 'Billions of K',
         time: 'Seconds to weeks',
         desc: `A <strong>supernova</strong> is one of the most violent events in the universe. 
@@ -107,7 +107,7 @@ export const starStages = {
     white_dwarf: {
         id: 'white_dwarf',
         title: 'White Dwarf',
-        img: '/images/white_dwarf.png',
+        img: './images/white_dwarf.png',
         temp: '8,000-40,000 K',
         time: 'Trillions of years',
         desc: `A <strong>white dwarf</strong> is the dense, Earth-sized core left behind after a Sun-like star sheds its outer layers. 
@@ -120,7 +120,7 @@ export const starStages = {
     neutron_star: {
         id: 'neutron_star',
         title: 'Neutron Star',
-        img: '/images/neutron_star.png',
+        img: './images/neutron_star.png',
         temp: '600,000+ K',
         time: 'Billions of years',
         desc: `When a star 8-20 times the Sun's mass goes supernova, the core collapses into a <strong>neutron star</strong>. 
@@ -133,7 +133,7 @@ export const starStages = {
     black_hole: {
         id: 'black_hole',
         title: 'Black Hole',
-        img: '/images/black_hole.png',
+        img: './images/black_hole.png',
         temp: 'N/A (Event Horizon)',
         time: 'Potentially forever',
         desc: `When stars more massive than 20 Suns explode, not even neutron degeneracy pressure can stop the collapse. 
