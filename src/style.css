@@ -1,4 +1,15 @@
 :root {
+  --bg-950: #e9f4fb;
+  --bg-900: #fff4dd;
+  --bg-800: #ffffff;
+  --text-100: #123140;
+  --text-300: #4b6570;
+  --gold-500: #0f7e9b;
+  --gold-400: #0b5f77;
+  --surface: rgba(255, 255, 255, 0.96);
+  --border: #c8dbe3;
+  --shadow-lg: 0 12px 24px rgba(12, 54, 68, 0.12);
+
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -64,6 +75,11 @@ h1 {
 }
 
 button {
+  border-radius: 10px;
+  background: linear-gradient(160deg, #0d839f, #0b5f77);
+  color: #ffffff;
+  font-weight: 700;
+
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -91,6 +107,11 @@ button:focus-visible {
     color: #747bff;
   }
   button {
+  border-radius: 10px;
+  background: linear-gradient(160deg, #0d839f, #0b5f77);
+  color: #ffffff;
+  font-weight: 700;
+
     background-color: #f9f9f9;
   }
 }
