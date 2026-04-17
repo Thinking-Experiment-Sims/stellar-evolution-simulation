@@ -5,6 +5,7 @@
 
 /* CSS Custom Properties */
 :root {
+
   --bg-950: #e9f4fb;
   --bg-900: #fff4dd;
   --bg-800: #ffffff;
@@ -66,6 +67,7 @@
     --transition-fast: 150ms ease;
     --transition-normal: 300ms ease;
     --transition-slow: 500ms ease;
+
 }
 
 /* Reset & Base */
