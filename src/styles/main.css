@@ -17,31 +17,31 @@
   --border: #c8dbe3;
   --shadow-lg: 0 12px 24px rgba(12, 54, 68, 0.12);
 
-    /* Colors - Space Theme */
-    --color-bg-dark: #0a0e1a;
-    --color-bg-medium: #0f172a;
-    --color-bg-light: #1e293b;
-    --color-bg-card: rgba(30, 41, 59, 0.8);
+    /* Colors - Light Theme */
+    --color-bg-dark: #e9f4fb;
+    --color-bg-medium: #ffffff;
+    --color-bg-light: #f4fbff;
+    --color-bg-card: rgba(255, 255, 255, 0.94);
 
     /* Accent Colors */
-    --color-primary: #3b82f6;
-    --color-primary-light: #60a5fa;
-    --color-secondary: #8b5cf6;
-    --color-accent-yellow: #fbbf24;
-    --color-accent-red: #ef4444;
-    --color-accent-orange: #f97316;
+    --color-primary: #0f7e9b;
+    --color-primary-light: #4ea6bb;
+    --color-secondary: #6d8fa3;
+    --color-accent-yellow: #c9962d;
+    --color-accent-red: #d96b5f;
+    --color-accent-orange: #d88932;
 
     /* Text Colors */
-    --color-text-primary: #f8fafc;
-    --color-text-secondary: #94a3b8;
-    --color-text-muted: #64748b;
+    --color-text-primary: #123140;
+    --color-text-secondary: #4b6570;
+    --color-text-muted: #6f8792;
 
     /* Glow Colors */
-    --glow-blue: rgba(59, 130, 246, 0.5);
-    --glow-purple: rgba(139, 92, 246, 0.5);
-    --glow-yellow: rgba(251, 191, 36, 0.5);
-    --glow-red: rgba(239, 68, 68, 0.5);
-    --glow-white: rgba(255, 255, 255, 0.4);
+    --glow-blue: rgba(15, 126, 155, 0.16);
+    --glow-purple: rgba(109, 143, 163, 0.12);
+    --glow-yellow: rgba(201, 150, 45, 0.16);
+    --glow-red: rgba(217, 107, 95, 0.16);
+    --glow-white: rgba(255, 255, 255, 0.55);
 
     /* Typography */
     --font-display: 'Exo 2', sans-serif;
@@ -100,13 +100,13 @@ body {
     width: 100%;
     height: 100%;
     z-index: -1;
-    background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+    background: radial-gradient(ellipse at top, #ffffff 0%, #eef7fb 58%, #deedf6 100%);
     overflow: hidden;
 }
 
 .star {
     position: absolute;
-    background: white;
+    background: rgba(15, 126, 155, 0.22);
     border-radius: 50%;
     animation: twinkle var(--duration) ease-in-out infinite;
     opacity: var(--opacity);
